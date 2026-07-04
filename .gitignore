@@ -1,0 +1,8 @@
+/models/
+/config/
+/data/
+/assets/audio/
+/assets/images/
+__pycache__/
+*.pyc
+.env
