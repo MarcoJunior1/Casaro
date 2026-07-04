@@ -2222,7 +2222,7 @@ def _thread_analisar_arquivo(b64, mime_type, eh_pdf, nome_arquivo, texto_usuario
 # Requer: pip install reportlab
 # ============================================================
 
-PASTA_PDFS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "casaro_pdfs")
+PASTA_PDFS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "casaro_pdfs")
 os.makedirs(PASTA_PDFS, exist_ok=True)
 
 def detectar_pedido_pdf(texto):
